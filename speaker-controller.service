@@ -1,0 +1,13 @@
+[Unit]
+Description=Speaker Controller Service
+After=tidal-connect.service
+
+[Service]
+Type=forking
+Restart=on-failure
+RestartSec=3
+WorkingDirectory=/opt/tidal-connect
+ExecStart=/usr/bin/screen -L -dmS root /opt/tidal-connect/bin/speaker_controller_application
+
+[Install]
+WantedBy=multi-user.target
