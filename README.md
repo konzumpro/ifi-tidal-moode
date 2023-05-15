@@ -18,7 +18,6 @@ ssh pi@moode.local
 ```
 wget -c "https://github.com/konzumpro/ifi-tidal-moode/archive/refs/heads/master.zip" -O - | busybox unzip -
 ```
-
 3. Navigate to folder:
 ```
 cd ifi-tidal-moode-master
