@@ -3,6 +3,11 @@
 The repository includes dynamic libraries which were scraped from debian packages to facilitate the installation process.
 The application has been tested on Moode audio OS, but it should also work on other distros.
 
+## Prerequirements on current Moode (8.3.2 32 bit) install
+``` 
+sudo apt-get install libncursesw5 python3-pyaudio screen
+```
+
 ## Test run
 1. SSH to rPI:
 ``` 
