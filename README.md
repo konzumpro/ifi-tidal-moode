@@ -45,4 +45,6 @@ sudo make install
 ```
 
 ## TODO:
-Remove duplicated libraries from 'lib' folder.
+Remove duplicated libraries from 'lib' folder.  
+Testing with DAC w hardware volume control.  
+Software volume with asound.conf softvol workaround if possible.  
